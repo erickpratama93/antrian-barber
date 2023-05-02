@@ -1,0 +1,31 @@
+.bg-image {
+    /* background-image: url('../img/barber.jpg');
+    background-size: cover; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../img/barber.jpg');
+    background-size: cover;
+}
+
+/* responsive */
+@media screen and (max-width:768px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    /* .masthead h1 {
+        font-size: 16px;
+    } */
+
+    .title {
+        font-size: 14px;
+    }
+
+    .masthead .masthead-heading {
+        font-size: 24px;
+    }
+
+    .masthead .masthead-heading img {
+        height: 100px;
+    }
+
+
+}
